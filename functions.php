@@ -257,3 +257,5 @@ function add_events_taxonomy()
 }
 
 add_action('init', 'add_events_taxonomy');
+
+remove_filter('the_content', 'wpautop');

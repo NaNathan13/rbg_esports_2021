@@ -14,9 +14,9 @@ if (!is_active_sidebar('sidebar-1')) {
 ?>
 
 <aside id="secondary" class="widget-area">
-	<?php echo get_template_part('template-parts/components/shop_rbg');?>
-	<?php echo get_template_part('template-parts/components/our_teams');?>
-	<?php echo get_template_part('template-parts/components/twitch_cta');?>
-	<?php echo get_template_part('template-parts/components/discord_cta');?>
-	<?php echo get_template_part('template-parts/components/sponsors');?>
+	<?php echo get_template_part('template-parts/components/shop_rbg'); ?>
+	<?php echo get_template_part('template-parts/components/our_teams'); ?>
+	<?php echo get_template_part('template-parts/components/sponsors'); ?>
+	<?php echo get_template_part('template-parts/components/twitch_cta'); ?>
+	<?php echo get_template_part('template-parts/components/discord_cta'); ?>
 </aside><!-- #secondary -->

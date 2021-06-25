@@ -22,6 +22,9 @@ $black: #000006;
 $lightGray: #202932;
 $darkGray: #0f161e;
 
+$discord: #738adb;
+$twitch: #6441a5;
+
 $borderRadius: 15px;
 
 body,
@@ -46,6 +49,7 @@ h6 {
   clear: both;
   color: #fff;
   text-transform: uppercase;
+  margin: 0 0 15px;
 }
 
 h1 {
@@ -61,8 +65,9 @@ h1 {
 }
 
 p {
-  margin-bottom: 1.5em;
+  margin: 0 0 15px 0;
   color: #fff;
+  font-size: 18px;
 }
 
 dfn,
@@ -181,8 +186,6 @@ a {
   color: #fff;
 }
 
-
-
 a:hover,
 a:focus,
 a:active {
@@ -282,6 +285,5 @@ textarea {
 
 #primary {
   background-color: $darkGray;
+  min-height: 60vh;
 }
-
-

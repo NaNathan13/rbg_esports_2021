@@ -12,25 +12,26 @@
       flex-direction: column;
       .staff_element_info {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-
+        justify-content: center;
         img {
           max-width: 200px;
           object-fit: contain;
-          margin-right: 25px;
+          margin: 0 auto;
         }
 
         .staff_element_info_content {
           display: flex;
           flex-direction: column;
-        justify-content: center;
+          justify-content: center;
           h3,
           h4,
           h5,
           h6 {
             margin: 0 0 10px 0;
             text-transform: none;
+            text-align: center;
           }
         }
       }
@@ -39,9 +40,11 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        img {
-          max-width: 35px;
-          margin-right: 25px;
+        a {
+          margin: 0 10px;
+          img {
+            max-width: 35px;
+          }
         }
       }
     }
@@ -52,7 +55,10 @@
   .staff_main {
     .staff_container {
       .staff_element {
+        flex-direction: row;
+        .staff_element_info {
           flex-direction: row;
+        }
       }
     }
   }

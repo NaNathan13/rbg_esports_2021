@@ -23,9 +23,8 @@ get_header();
 		</div>
 
 		<div class="page_content_container">
-		
+
 			<?php get_template_part('template-parts/components/upcoming_events');  ?>
-			<?php get_template_part('template-parts/components/twitch_multi_stream');  ?>
 			<?php get_template_part('template-parts/components/sponsors');  ?>
 			<?php get_template_part('template-parts/components/shop_rbg');  ?>
 			<?php get_template_part('template-parts/components/latest_videos');  ?>

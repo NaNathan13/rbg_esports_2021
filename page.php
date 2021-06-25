@@ -19,13 +19,16 @@ get_header();
 <main id="primary" class="site-main">
 	<div class="page_wrapper">
 		<?php get_template_part('template-parts/heros/fifty_fifty_hero'); ?>
+		<section class="page_content">
+			<?php
+			if (have_posts()) :
+				while (have_posts()) : the_post();
+					the_content();
+				endwhile;
+			endif;
+			?>
+		</section>
 
-		<?php
-		if (have_posts()) :
-			while (have_posts()) : the_content();
-
-			endwhile;
-		endif;	?>
 	</div>
 </main>
 <?php

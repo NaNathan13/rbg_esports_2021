@@ -1,7 +1,7 @@
 .page_grid {
   display: flex;
   flex-direction: column;
-  padding: 0 20px 20px 20px;
+  padding: 0;
 }
 @media (min-width: 1024px) {
   .page_grid {
@@ -19,7 +19,6 @@
   padding: 0 15px;
   max-width: 1280px;
   margin: 0 auto;
-  min-height: 60vh;
   section {
     margin-bottom: 15px;
   }
@@ -64,9 +63,19 @@
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
-  padding: 0 20px;
 
   section {
     margin-bottom: 15px;
+  }
+}
+
+aside {
+  background-color: $darkGray;
+  section {
+    padding: 0 15px;
+
+    .sponsors_container {
+      padding: 0;
+    }
   }
 }

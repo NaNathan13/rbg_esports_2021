@@ -25,6 +25,16 @@
   }
 }
 
+aside {
+  .shop_rbg_section {
+    .shop_rbg_container {
+      a.cta_btn {
+        width: 100%;
+      }
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .shop_rbg_section {
     .shop_rbg_container {
